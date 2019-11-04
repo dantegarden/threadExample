@@ -10,11 +10,11 @@
 
     <dependencies>
         <!--自定义的工具jar包-->
-        <dependency>
-            <groupId>com.dg</groupId>
-            <artifactId>batch-task-processor</artifactId>
-            <version>1.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.dg</groupId>-->
+<!--            <artifactId>batch-task-processor</artifactId>-->
+<!--            <version>1.0</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>com.google.guava</groupId>
