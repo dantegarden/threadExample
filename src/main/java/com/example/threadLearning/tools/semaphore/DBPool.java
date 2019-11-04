@@ -1,6 +1,7 @@
 package com.example.threadLearning.tools.semaphore;
 
 import com.example.threadLearning.pool.MyConnectionImpl;
+import sun.misc.Unsafe;
 
 import java.sql.Connection;
 import java.util.LinkedList;
@@ -39,6 +40,7 @@ public class DBPool {
             synchronized (pool) {
                 pool.addLast(connection);
             }
+
             avaliable.release();
         }
     }
